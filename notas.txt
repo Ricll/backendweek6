@@ -1,0 +1,29 @@
+/ Parei 57.9
+
+
+Usado o package.json para configuração do nodemom
+yarn add nodemom -D --- o D é de dev 
+iniciar yarn dev
+
+"scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+
+    * mongoDb Atlas
+  - Conta
+  - pass : man o de sempre
+  - Criado o cluster: Servidor pode ter várias bases de dados
+  - Legal não é preciso criar database faz automatico
+  - Passos: security/ add new user
+  - ip/whitlist - add ip adress - allow acess anywhere
+  - OverView - connect - connect your aplication
+  - Instalando o mongoose - yarn add mongoose
+  - mongoose é uma modo de usarmos JS no mongoDB. Não usa a linguagem dos bancos
+  de dados
+   * Criando Models
+   - Box.js Criado
+   
+
+
+
